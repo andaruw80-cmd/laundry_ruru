@@ -33,6 +33,6 @@ for($x=0; $x<count($jenis_pakaian);$x++){
         mysqli_query($koneksi, "insert into pakaian values('','$id_terakhir','$jenis_pakaian[$x]','$jumlah_pakaian[$x]')");
     }
 }
+echo "<script>alert('Data ditambah'); window.location.href= 'transaksi.php '</script>";
 
-header("location:transaksi.php");
 ?>

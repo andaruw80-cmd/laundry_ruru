@@ -61,6 +61,6 @@ for ($x = 0; $x < count($jenis_pakaian); $x++) {
 }
 
 // Kembali ke halaman transaksi
-header("Location: transaksi.php");
+echo "<script>alert('Data sudah diubah');window.location.href='transaksi.php'</script>";
 exit;
 ?>
